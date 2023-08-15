@@ -1,1 +1,26 @@
-<h1>welcome to dashboard</h1>
+@extends('admin.layouts.template')
+@section('content')
+
+
+
+
+Helo from dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@endsection
