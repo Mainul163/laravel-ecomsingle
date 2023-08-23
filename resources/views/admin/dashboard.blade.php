@@ -1,16 +1,13 @@
 @extends('admin.layouts.template')
+@section('page_title')
+Dashboard -Single Ecom
+@endsection
 @section('content')
 
 
 
 
-Helo from dashboard
-
-
-
-
-
-
+<h1>Dashboard</h1>
 
 
 
