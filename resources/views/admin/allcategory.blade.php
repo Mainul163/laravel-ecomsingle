@@ -12,6 +12,11 @@ All Category -Single Ecom
 
     <div class="card">
         <h5 class="card-header">Available Category Information</h5>
+        @if (session()->has('message'))
+        <div class="alert alert-success" role="alert">
+            {{ session()->get('message') }}
+        </div>
+        @endif
         <div class="table-responsive text-nowrap">
             <table class="table">
                 <thead class="table-light">
